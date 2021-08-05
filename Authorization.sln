@@ -1,0 +1,109 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Host", "Authorization.Host\Authorization.Host.csproj", "{FD85823E-4A2C-4590-8572-DC565EB29B8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Application", "Authorization.Application\Authorization.Application.csproj", "{926CD159-FE41-460D-8D9A-E0140552796D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Domain", "Authorization.Domain\Authorization.Domain.csproj", "{27AC5BF2-5330-4A38-9B5B-3E87B4420DB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{09A63B11-2BEE-4C3F-B266-CD5B46860E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Infrastructure.Persistence", "Authorization.Infrastructure.Persistence\Authorization.Infrastructure.Persistence.csproj", "{E830617B-407A-4B7D-8ADB-B92D5D95E6D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Infrastructure.Logging", "Authorization.Infrastructure.Logging\Authorization.Infrastructure.Logging.csproj", "{73BDA4F1-0BBA-426A-B531-B5A60C74D1CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Infrastructure.Auth", "Authorization.Infrastructure.Auth\Authorization.Infrastructure.Auth.csproj", "{E232396C-DDA9-4404-8596-5BF76E55F97C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4089A470-D9F7-4A7A-B6A3-9FDD3EAD0C0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Application.Tests", "Authorization.Application.Tests\Authorization.Application.Tests.csproj", "{C2EC7772-2BB9-4F0C-AEED-401A8C2251BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Domain.Tests", "Authorization.Domain.Tests\Authorization.Domain.Tests.csproj", "{E4CA2B0C-34DA-49A5-A430-08EEA79A9B42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{3C6C6E93-888A-4056-A21E-356E916990F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Migrations", "Authorization.Migrations\Authorization.Migrations.csproj", "{A789E698-9522-4D32-82DE-20F5A2111B56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Provisioning", "Provisioning", "{B130F731-CD16-4F45-9E3F-1AD46DCC82BD}"
+ProjectSection(SolutionItems) = preProject
+	README.md = README.md
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "postgres", "postgres", "{99AA2C93-29E2-4D11-B385-A8DEBD53DCE0}"
+ProjectSection(SolutionItems) = preProject
+	provisioning\postgres\run-daemon.sh = provisioning\postgres\run-daemon.sh
+	provisioning\postgres\env.sh = provisioning\postgres\env.sh
+	provisioning\postgres\run-migrations.sh = provisioning\postgres\run-migrations.sh
+	provisioning\postgres\Dockerfile = provisioning\postgres\Dockerfile
+	provisioning\postgres\README.md = provisioning\postgres\README.md
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{C74664F3-4590-4CB7-97EE-7BC08CA59CEC}"
+ProjectSection(SolutionItems) = preProject
+	provisioning\app\Dockerfile = provisioning\app\Dockerfile
+	provisioning\app\build.sh = provisioning\app\build.sh
+	provisioning\app\run.sh = provisioning\app\run.sh
+	provisioning\app\env.sh = provisioning\app\env.sh
+	provisioning\app\README.md = provisioning\app\README.md
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Migrations.Tests", "Authorization.Migrations.Tests\Authorization.Migrations.Tests.csproj", "{D7C491CC-BDE5-43EB-B852-6E7211DB080A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD85823E-4A2C-4590-8572-DC565EB29B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD85823E-4A2C-4590-8572-DC565EB29B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD85823E-4A2C-4590-8572-DC565EB29B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD85823E-4A2C-4590-8572-DC565EB29B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926CD159-FE41-460D-8D9A-E0140552796D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926CD159-FE41-460D-8D9A-E0140552796D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926CD159-FE41-460D-8D9A-E0140552796D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926CD159-FE41-460D-8D9A-E0140552796D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27AC5BF2-5330-4A38-9B5B-3E87B4420DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27AC5BF2-5330-4A38-9B5B-3E87B4420DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27AC5BF2-5330-4A38-9B5B-3E87B4420DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27AC5BF2-5330-4A38-9B5B-3E87B4420DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E830617B-407A-4B7D-8ADB-B92D5D95E6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E830617B-407A-4B7D-8ADB-B92D5D95E6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E830617B-407A-4B7D-8ADB-B92D5D95E6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E830617B-407A-4B7D-8ADB-B92D5D95E6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73BDA4F1-0BBA-426A-B531-B5A60C74D1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BDA4F1-0BBA-426A-B531-B5A60C74D1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BDA4F1-0BBA-426A-B531-B5A60C74D1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BDA4F1-0BBA-426A-B531-B5A60C74D1CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E232396C-DDA9-4404-8596-5BF76E55F97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E232396C-DDA9-4404-8596-5BF76E55F97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E232396C-DDA9-4404-8596-5BF76E55F97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E232396C-DDA9-4404-8596-5BF76E55F97C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2EC7772-2BB9-4F0C-AEED-401A8C2251BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2EC7772-2BB9-4F0C-AEED-401A8C2251BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2EC7772-2BB9-4F0C-AEED-401A8C2251BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2EC7772-2BB9-4F0C-AEED-401A8C2251BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4CA2B0C-34DA-49A5-A430-08EEA79A9B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4CA2B0C-34DA-49A5-A430-08EEA79A9B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4CA2B0C-34DA-49A5-A430-08EEA79A9B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4CA2B0C-34DA-49A5-A430-08EEA79A9B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A789E698-9522-4D32-82DE-20F5A2111B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A789E698-9522-4D32-82DE-20F5A2111B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A789E698-9522-4D32-82DE-20F5A2111B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A789E698-9522-4D32-82DE-20F5A2111B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C491CC-BDE5-43EB-B852-6E7211DB080A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C491CC-BDE5-43EB-B852-6E7211DB080A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C491CC-BDE5-43EB-B852-6E7211DB080A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C491CC-BDE5-43EB-B852-6E7211DB080A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E830617B-407A-4B7D-8ADB-B92D5D95E6D1} = {09A63B11-2BEE-4C3F-B266-CD5B46860E45}
+		{73BDA4F1-0BBA-426A-B531-B5A60C74D1CE} = {09A63B11-2BEE-4C3F-B266-CD5B46860E45}
+		{E232396C-DDA9-4404-8596-5BF76E55F97C} = {09A63B11-2BEE-4C3F-B266-CD5B46860E45}
+		{C2EC7772-2BB9-4F0C-AEED-401A8C2251BF} = {4089A470-D9F7-4A7A-B6A3-9FDD3EAD0C0A}
+		{E4CA2B0C-34DA-49A5-A430-08EEA79A9B42} = {4089A470-D9F7-4A7A-B6A3-9FDD3EAD0C0A}
+		{A789E698-9522-4D32-82DE-20F5A2111B56} = {3C6C6E93-888A-4056-A21E-356E916990F9}
+		{99AA2C93-29E2-4D11-B385-A8DEBD53DCE0} = {B130F731-CD16-4F45-9E3F-1AD46DCC82BD}
+		{C74664F3-4590-4CB7-97EE-7BC08CA59CEC} = {B130F731-CD16-4F45-9E3F-1AD46DCC82BD}
+		{D7C491CC-BDE5-43EB-B852-6E7211DB080A} = {4089A470-D9F7-4A7A-B6A3-9FDD3EAD0C0A}
+	EndGlobalSection
+EndGlobal

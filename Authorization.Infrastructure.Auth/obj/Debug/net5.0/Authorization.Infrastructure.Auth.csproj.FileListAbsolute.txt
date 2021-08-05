@@ -1,0 +1,12 @@
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Auth/bin/Debug/net5.0/Authorization.Infrastructure.Auth.deps.json
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Auth/bin/Debug/net5.0/Authorization.Infrastructure.Auth.dll
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Auth/bin/Debug/net5.0/ref/Authorization.Infrastructure.Auth.dll
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Auth/bin/Debug/net5.0/Authorization.Infrastructure.Auth.pdb
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Auth/obj/Debug/net5.0/Authorization.Infrastructure.Auth.GeneratedMSBuildEditorConfig.editorconfig
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Auth/obj/Debug/net5.0/Authorization.Infrastructure.Auth.AssemblyInfoInputs.cache
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Auth/obj/Debug/net5.0/Authorization.Infrastructure.Auth.AssemblyInfo.cs
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Auth/obj/Debug/net5.0/Authorization.Infrastructure.Auth.csproj.CoreCompileInputs.cache
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Auth/obj/Debug/net5.0/Authorization.Infrastructure.Auth.dll
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Auth/obj/Debug/net5.0/ref/Authorization.Infrastructure.Auth.dll
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Auth/obj/Debug/net5.0/Authorization.Infrastructure.Auth.pdb
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Auth/obj/Debug/net5.0/Authorization.Infrastructure.Auth.csprojAssemblyReference.cache

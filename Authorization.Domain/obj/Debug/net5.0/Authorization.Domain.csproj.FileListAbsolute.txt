@@ -1,0 +1,12 @@
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/bin/Debug/net5.0/Authorization.Domain.deps.json
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/bin/Debug/net5.0/Authorization.Domain.dll
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/bin/Debug/net5.0/ref/Authorization.Domain.dll
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/bin/Debug/net5.0/Authorization.Domain.pdb
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/obj/Debug/net5.0/Authorization.Domain.csprojAssemblyReference.cache
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/obj/Debug/net5.0/Authorization.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/obj/Debug/net5.0/Authorization.Domain.AssemblyInfoInputs.cache
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/obj/Debug/net5.0/Authorization.Domain.AssemblyInfo.cs
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/obj/Debug/net5.0/Authorization.Domain.csproj.CoreCompileInputs.cache
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/obj/Debug/net5.0/Authorization.Domain.dll
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/obj/Debug/net5.0/ref/Authorization.Domain.dll
+/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/obj/Debug/net5.0/Authorization.Domain.pdb

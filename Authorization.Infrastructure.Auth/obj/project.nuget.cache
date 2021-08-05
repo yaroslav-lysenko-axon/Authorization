@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "rPC/X7Hap/HOBZKNNYacTXsxagdaPH7zB1/IhbXy4Tv9p9e6BJLcCA7cR4+hI1Zj35GArigJ3iNBLqOnAjQU6g==",
+  "success": true,
+  "projectFilePath": "/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Auth/Authorization.Infrastructure.Auth.csproj",
+  "expectedPackageFiles": [
+    "/home/yaroslav-lysenko/.nuget/packages/microsoft.codeanalysis.fxcopanalyzers/3.0.0/microsoft.codeanalysis.fxcopanalyzers.3.0.0.nupkg.sha512",
+    "/home/yaroslav-lysenko/.nuget/packages/microsoft.codeanalysis.versioncheckanalyzer/3.0.0/microsoft.codeanalysis.versioncheckanalyzer.3.0.0.nupkg.sha512",
+    "/home/yaroslav-lysenko/.nuget/packages/microsoft.codequality.analyzers/3.0.0/microsoft.codequality.analyzers.3.0.0.nupkg.sha512",
+    "/home/yaroslav-lysenko/.nuget/packages/microsoft.netcore.analyzers/3.0.0/microsoft.netcore.analyzers.3.0.0.nupkg.sha512",
+    "/home/yaroslav-lysenko/.nuget/packages/microsoft.netframework.analyzers/3.0.0/microsoft.netframework.analyzers.3.0.0.nupkg.sha512",
+    "/home/yaroslav-lysenko/.nuget/packages/stylecop.analyzers/1.1.118/stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+ <PropertyGroup>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <!-- CS0618: Member is obsolete. -->
+    <WarningsNotAsErrors>$(WarningsNotAsErrors);CS0618</WarningsNotAsErrors>
+    <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)Rulesets/Default.ruleset</CodeAnalysisRuleSet>
+ </PropertyGroup>
+</Project>

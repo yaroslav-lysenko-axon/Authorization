@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Persistence/Authorization.Infrastructure.Persistence.csproj": {}
+  },
+  "projects": {
+    "/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/Authorization.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/Authorization.Domain.csproj",
+        "projectName": "Authorization.Domain",
+        "projectPath": "/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/Authorization.Domain.csproj",
+        "packagesPath": "/home/yaroslav-lysenko/.nuget/packages/",
+        "outputPath": "/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/yaroslav-lysenko/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Persistence/Authorization.Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Persistence/Authorization.Infrastructure.Persistence.csproj",
+        "projectName": "Authorization.Infrastructure.Persistence",
+        "projectPath": "/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Persistence/Authorization.Infrastructure.Persistence.csproj",
+        "packagesPath": "/home/yaroslav-lysenko/.nuget/packages/",
+        "outputPath": "/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Infrastructure.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/yaroslav-lysenko/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/Authorization.Domain.csproj": {
+                "projectPath": "/home/yaroslav-lysenko/Downloads/GitHubDirectory/chapter-backend-master/Reference/projects/dotnet/Authorization/Authorization.Domain/Authorization.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

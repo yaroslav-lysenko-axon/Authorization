@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="9.3.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+      <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.0.0" />
+      <PackageReference Include="StyleCop.Analyzers" Version="1.1.118" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Authorization.Domain\Authorization.Domain.csproj" />
+      <ProjectReference Include="..\Authorization.Infrastructure.Auth\Authorization.Infrastructure.Auth.csproj" />
+      <ProjectReference Include="..\Authorization.Infrastructure.Logging\Authorization.Infrastructure.Logging.csproj" />
+      <ProjectReference Include="..\Authorization.Infrastructure.Persistence\Authorization.Infrastructure.Persistence.csproj" />
+    </ItemGroup>
+
+</Project>
