@@ -56,10 +56,13 @@ namespace Authorization.Domain.Services
             return user;
         }
 
-        public async Task<User> GetUserAndPassword(string email, string password)
+        public async Task<User> GetUser(string email, string password)
         {
-            var existingUser = await _userRepository.FindByEmail(email);
-            if (existingUser != null)
+            var user = await _userRepository.FindByEmail(email).ConfigureAwait(false);
+            var salt = user.Salt;
+            var passwordHash = _hashGenerator.GenerateHash(password, salt);
+
+            if (user.PasswordHash == passwordHash)
             {
                 var role = await _roleRepository.FindByName(UserRegistrationRole);
                 if (role == null)
@@ -67,19 +70,7 @@ namespace Authorization.Domain.Services
                     throw new RoleNotFoundException(UserRegistrationRole);
                 }
 
-                var salt = _hashGenerator.CreateSalt();
-                var passwordHash = _hashGenerator.GenerateHash(password, salt);
-                var user = new User
-                {
-                    FirstName = existingUser.FirstName,
-                    LastName = existingUser.LastName,
-                    Email = email,
-                    PasswordHash = passwordHash,
-                    Salt = salt,
-                    Active = false,
-                    Role = role,
-                };
-
+                user.Role = role;
                 return user;
             }
 
