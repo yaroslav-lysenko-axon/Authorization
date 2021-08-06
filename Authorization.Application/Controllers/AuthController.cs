@@ -21,7 +21,6 @@ namespace Authorization.Application.Controllers
         public async Task<IActionResult> RegisterUser([FromBody] RegisterUserCommand command)
         {
             var response = await _mediator.Send(command);
-
             return Ok(response);
         }
 
@@ -29,7 +28,6 @@ namespace Authorization.Application.Controllers
         public async Task<IActionResult> GetUserByEmailAndPassword([FromQuery] EnterUserCommand command)
         {
             var response = await _mediator.Send(command);
-
             return Ok(response);
         }
     }
