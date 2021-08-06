@@ -29,9 +29,8 @@ namespace Authorization.Application.Handlers
 
         public async Task<GetUserTokenResponse> Handle(EnterUserCommand request, CancellationToken cancellationToken)
         {
-            const string clientName = "WEB";
-            var client = await _clientService.FindClientByName(clientName);
-            var user = await _userService.GetUserAndPassword(request.Email, request.Password);
+            var client = await _clientService.FindClientByClientId(request.ClientId);
+            var user = await _userService.GetUser(request.Email, request.Password);
             var accessToken = _tokenService.IssueAccessToken(user);
             var refreshToken = _tokensConfiguration.ShouldIssueRefreshTokens
                     ? await _tokenService.IssueRefreshToken(user, client)

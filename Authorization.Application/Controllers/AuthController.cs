@@ -24,8 +24,8 @@ namespace Authorization.Application.Controllers
             return Ok(response);
         }
 
-        [HttpGet("token")]
-        public async Task<IActionResult> GetUserByEmailAndPassword([FromQuery] EnterUserCommand command)
+        [HttpPost("token")]
+        public async Task<IActionResult> GetUserByEmailAndPassword([FromBody] EnterUserCommand command)
         {
             var response = await _mediator.Send(command);
             return Ok(response);
