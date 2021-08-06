@@ -28,9 +28,9 @@ namespace Authorization.Domain.Services
             return client;
         }
 
-        public async Task<Client> FindClientByClientId(long clientId)
+        public async Task<Client> FindClientByName(string name)
         {
-            var client = await _clientRepository.FindFirst(x => x.Id == clientId);
+            var client = await _clientRepository.FindFirst(x => x.Name == name);
 
             if (client == null)
             {
